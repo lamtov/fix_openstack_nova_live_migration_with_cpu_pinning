@@ -75,7 +75,8 @@ o File: compute/manager.py
     o Resume
     o Migrate
     o Live-Migrate
-![Live-migrate](image1.JPG)
+    
+![Live-migrate](image1.png)
 
 ## 2. Các Flow trong Openstack live-migration
 

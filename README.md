@@ -86,7 +86,7 @@ Tiến trình thực hiện live-migration VM qua lệnh
 ```
 virsh migrate –live instance-xxxxxxx qemu+ssh://dest_host/system
 ```
-![Live-migrate](image2.JPG)
+![Live-migrate](image2.png)
 Các bước thực hiện post-live-migration qua virsh:
 o **Bước 1** : Bước chuẩn bị
  Tạo connection giữa source và dest QEMU, đảm bảo
@@ -298,7 +298,7 @@ trong hàm notify ở trên.
 
 
 Mô hình tóm tắt các bước live-migration sử dụng Openstack-nova
-![Live-migrate](image3.JPG)
+![Live-migrate](image3.png)
 
 ## 3. Giải pháp live-migrate VM có cấu hình Pin CPU
 
@@ -440,4 +440,4 @@ self._host.write_instance_config(self._host.get_guest(instance).get_xml_desc())
 
 ### 3.3 Minh họa giải pháp
 
-![Live-migrate](image4.JPG)
+![Live-migrate](image4.png)
